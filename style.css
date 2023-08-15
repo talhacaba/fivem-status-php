@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    color-scheme: dark;
+}
+
+body {
+    background: #0C0C0C;
+    color: #FFFFFF;
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    overflow-wrap: break-word;
+}
+
+a:any-link {
+    color: #62b3ff;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+em {
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+small {
+    font-size: 0.875em;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    display: block;
+    vertical-align: middle;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.header {
+    height: 128;
+    width: 100%;
+    background-color: #242424;
+    background-image: url('https://talhacaba.com.tr/wp-content/uploads/bg-3.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.server-info-container {
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    padding: 0 8px;
+    margin: 32px auto;
+}
+
+.server-info-container .server-info-block {
+    flex: 1;
+    padding: 0 8px;
+    border-radius: 4px;
+}
+
+.server-info-block h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.server-info-block div {
+    font-size: 18px;
+}
+
+.player-card-container {
+    max-width: 768px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 0 8px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 128px;
+}
+
+.player-card {
+    color: #FFFFFF;
+    background-color: #242424;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.player-card .player-id {
+    color: #C0C0C0;
+    margin-right: 16px;
+}
+
+.player-card .player-name {
+    font-weight: 600;
+}
