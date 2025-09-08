@@ -1,5 +1,3 @@
-# fivem-status-php
-
 # FiveM Sunucu Durum Sayfası
 
 Bu proje, FiveM sunucunuzun anlık durumunu, aktif oyuncu sayısını ve oyuncu listesini modern ve şık bir arayüzde gösteren dinamik bir durum sayfasıdır. Sunucunuzun API'sinden çektiği verilerle otomatik olarak güncellenir ve kullanıcıların sunucunuza kolayca bağlanmasını sağlar.
